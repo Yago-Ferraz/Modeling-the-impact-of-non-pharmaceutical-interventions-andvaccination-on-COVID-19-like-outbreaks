@@ -8,7 +8,9 @@ compartmental model, simulates a COVID-19-like outbreak in a closed population
 of 1,000,000 individuals, and compares three scenarios: no intervention,
 a temporary non-pharmaceutical intervention (NPI), and a vaccination campaign.
 
-The full scientific report is in [`article/artigo.md`](article/artigo.md).
+**Author:** Yago Moura Ferraz — UFRPE.
+
+The full scientific report is in [`article/artigo.pdf`](article/artigo.pdf).
 
 ## Repository structure
 
@@ -21,7 +23,7 @@ epidemiologia/
 ├── results/                 # Generated time-series CSVs (S,E,I,R,D,V per day)
 ├── figures/                 # Generated PNG figures
 ├── article/
-│   └── artigo.md            # Scientific report (Scientific Reports style)
+│   └── artigo.pdf           # Scientific report (Scientific Reports style, 5 pp.)
 ├── requirements.txt
 └── README.md
 ```
@@ -76,8 +78,8 @@ assistance of **Claude Code** (Anthropic, model `claude-sonnet-5`), an
 AI coding agent. The author's own prompts guided the choice of disease
 (COVID-19), scenario design (baseline/NPI/vaccination), and review/validation
 of all generated equations and numerical results against the cited
-literature. Full prompt/response transcript available upon request; see
-disclosure section in `article/artigo.md` for details.
+literature. See the AI Usage Disclosure section in `article/artigo.pdf`
+for details.
 
 ## License
 
